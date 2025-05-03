@@ -17,6 +17,12 @@
 		    <artifactId>bedrock-runtime-maven</artifactId>
 		    <version>5.1.2</version>
 		</dependency>
+		<plugin>
+  <groupId>org.sonarsource.scanner.maven</groupId>
+  <artifactId>sonar-maven-plugin</artifactId>
+  <version>4.0.0.4121</version>
+</plugin>
+
 		
 		<dependency>
 			<groupId>junit</groupId>
